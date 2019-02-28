@@ -16,7 +16,8 @@ According to the ground truth folder provided in the data set. We identified the
 
         PCA is applied on the user separately and PCA components are obtained and the label obtained in the 
         preprocessing is also saved to the new feature matrix. The same is repeated for every other user.Later
-        it is passed to the classification methods such that 60 percent is for training and other 40 percent for testing.
+        it is passed to the classification methods such that 60 percent is for training and other 40 percent 
+        for testing.
 
 **Case2**
 
