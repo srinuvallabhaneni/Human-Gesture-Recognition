@@ -14,14 +14,19 @@ According to the ground truth folder provided in the data set. We identified the
  ### Feature matrix:
 **Case1**
 
-        PCA is applied on the user separately and PCA components are obtained and the label obtained in the preprocessing is also saved to         the new feature matrix. The same is repeated for every other user. Later it is passed to the classification methods such that 60           percent is for training and other 40 percent for testing.
+        PCA is applied on the user separately and PCA components are obtained and the label obtained in the 
+        preprocessing is also saved to the new feature matrix. The same is repeated for every other user.Later
+        it is passed to the classification methods such that 60 percent is for training and other 40 percent for testing.
 
 **Case2**
 
-        PCA is applied on the user by concatenating all the data and PCA components for the whole data are obtained. the label obtained in          the preprocessing is also saved to the new feature matrix. Later it is passed to the classification methods such that 60 percent            is for training and other 40 percent for testing.
+        PCA is applied on the user by concatenating all the data and PCA components for the whole data
+        are obtained. the label obtained in the preprocessing is also saved to the new feature matrix.
+        Later it is passed to the classification methods such that 60 percent is for training and other 
+        40 percent for testing.
         
 ## Conclusion:
 Based on the results, for the given dataset Clasification accuracy is best for Neural network when compared to other classification methods such as Decision trees, SVM (Support Vector machine).
+
 [Relavant graphs and conclusions are presented in the Report](https://github.com/srinuvallabhaneni/Human-Gesture-Recognition/blob/master/Report.pdf)
 
-[GitHub](http://github.com)
