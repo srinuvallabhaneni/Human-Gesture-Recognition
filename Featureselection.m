@@ -119,10 +119,3 @@ end
 for i=1:10
     nomovpc(i,:)=(mtimes(cov(nomov),w6(1:end,t6(i))))    
 end
-
-
-
-
-
-
-

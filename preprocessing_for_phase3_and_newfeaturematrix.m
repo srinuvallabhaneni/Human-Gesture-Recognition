@@ -1,6 +1,6 @@
-addpath('C:\Users\Vasu\Desktop\Courses\DM\Project\Data_Mining\files')
-d='C:\Users\Vasu\Desktop\Courses\DM\Project\Data_Mining\files' 
-g='C:\Users\Vasu\Desktop\Courses\DM\Project\Data_Mining\qwe'
+addpath('\Data_Mining\files')
+d='\Data_Mining\files' 
+g='\Data_Mining\qwe'
 t = {'11.csv','12.csv','13.csv','14.csv','16.csv','17.csv','18.csv','19.csv','21.csv','22.csv','23.csv','24.csv','25.csv','26.csv','27.csv','28.csv','29.csv','30.csv','31.csv','32.csv','33.csv','34.csv','36.csv','37.csv','38.csv','39.csv','40.csv','41.csv'};     
 M=[];
 %class labelling according to frame start and frame end

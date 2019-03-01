@@ -1,6 +1,6 @@
-m = csvread("C:\Users\PRASAD.M\Desktop\data mining\data mining\project\assignment 2\groundTruth\user36\fork\1503944237832.txt")
-file1 = csvread("C:\Users\PRASAD.M\Desktop\data mining\data mining\project\assignment 2\MyoData\user36\fork\1503944237832_EMG.txt")
-file2 = csvread("C:\Users\PRASAD.M\Desktop\data mining\data mining\project\assignment 2\MyoData\user36\fork\1503944237832_IMU.txt")
+m = csvread("\groundTruth\user36\fork\1503944237832.txt")
+file1 = csvread("\MyoData\user36\fork\1503944237832_EMG.txt")
+file2 = csvread("\MyoData\user36\fork\1503944237832_IMU.txt")
 y=m(1:end,1)
 z=m(1:end,2)
 c4 = file2(:,4)
@@ -39,7 +39,7 @@ sri = fitctree(vai,div,'MaxNumSplits',30,'CrossVal','on');
 view(sri.Trained{1},'Mode','graph')
 h=[];
 h= findall(0,'type','figure','Name','Classification tree viewer');
-destfile = strcat('C:\Users\PRASAD.M\Documents\MATLAB\user36.fig');
+destfile = strcat('\user36.fig');
 saveas(h,destfile);
 close(h);
 
